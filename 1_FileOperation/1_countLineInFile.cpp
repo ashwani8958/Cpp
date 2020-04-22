@@ -10,6 +10,7 @@
 // Reference :-
 //1. http://www.cplusplus.com/reference/fstream/ifstream/
 //2. http://www.cplusplus.com/doc/tutorial/files/
+//3. https://medium.com/@VIRAL/mac-xcode-and-c-file-handling-78ba999032df
 
 #include <iostream>
 #include <fstream>

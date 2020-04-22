@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4D1E976C245034A500AE7A2A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E976B245034A500AE7A2A /* main.cpp */; };
-		4D1E97852450389F00AE7A2A /* 2_findSizeOfFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E97842450389F00AE7A2A /* 2_findSizeOfFile.cpp */; };
 		4D1E978D245039DA00AE7A2A /* 1_listCreation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E978C245039DA00AE7A2A /* 1_listCreation.cpp */; };
 		4D1E979924503AAD00AE7A2A /* 1_arrayMultiply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E979824503AAD00AE7A2A /* 1_arrayMultiply.cpp */; };
 		4D1E97AA24503C1900AE7A2A /* 1_StringPyramid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E97A924503C1900AE7A2A /* 1_StringPyramid.cpp */; };
@@ -19,6 +18,7 @@
 		4D1E97ED245054FC00AE7A2A /* Friend_class.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E97E4245051F200AE7A2A /* Friend_class.hpp */; };
 		4D1E97EE245054FC00AE7A2A /* Other_class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E97E62450521600AE7A2A /* Other_class.cpp */; };
 		4D1E97EF245054FC00AE7A2A /* Other_class.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E97E72450521600AE7A2A /* Other_class.hpp */; };
+		4D1E97F12450597200AE7A2A /* 2_findSizeOfFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E97842450389F00AE7A2A /* 2_findSizeOfFile.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -501,7 +501,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D1E97852450389F00AE7A2A /* 2_findSizeOfFile.cpp in Sources */,
+				4D1E97F12450597200AE7A2A /* 2_findSizeOfFile.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
