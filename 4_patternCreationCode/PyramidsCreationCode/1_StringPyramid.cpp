@@ -9,8 +9,6 @@
 #include <iostream>
 #include <string>
 
-//i have added this line through ashwanibackup0
-//as
 using namespace std;
 
 int main()
