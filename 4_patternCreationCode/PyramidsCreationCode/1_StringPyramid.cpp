@@ -20,8 +20,8 @@ int main()
   getline(cin, format);
 
   int print_line{}, print_space{};
-  int space_limit = format.size() - 1;
-  int str_len = format.size();
+  unsigned long space_limit = format.size() - 1;
+  unsigned long str_len = format.size();
   int print_index{};
 
   for(print_line = 1; print_line <= str_len; print_line++)
