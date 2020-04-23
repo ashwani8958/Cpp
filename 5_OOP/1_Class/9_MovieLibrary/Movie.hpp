@@ -11,6 +11,7 @@
 
 #include <iostream>
 using namespace std;
+
 class Movie
 {
 private:
@@ -29,10 +30,19 @@ public:
     void setMovieRating(const string rating);
     void setMovieWatched(const int watched);
     
-    //Display method
-    void display() const;
-    
     //Simply increment the watched attribute by 1
     void increment_watched();
+    
+    //Constructor
+    Movie (string moiveName, string moiveRating, int movieWatched);
+    
+    //Copy Constructor
+    Movie(const Movie &source);
+    
+    //Destructor
+    ~Movie();
+    
+    //Display method
+    void display() const;
 };
 #endif /* Movie_hpp */

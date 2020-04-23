@@ -29,9 +29,7 @@ we should display this error to the user
 - if we try to increment the watched count for a movie whose name is not in the movies
 collection we should display this error to the user
 
-I've provided a basic shell as a starting point for one possible solution
-that has fully implemented
-- Movie and main
+
 
 You can choose to use my starting point or start from scratch.
 

@@ -15,6 +15,7 @@
 		4DB331792450652A00A9D914 /* 2_References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331782450652900A9D914 /* 2_References.cpp */; };
 		4DB331832451904F00A9D914 /* 6_MoveConstructors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E97D424504DD400AE7A2A /* 6_MoveConstructors.cpp */; };
 		4DB331882451B14900A9D914 /* Movie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331862451B14900A9D914 /* Movie.cpp */; };
+		4DB3318B2451C00600A9D914 /* Movies.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331892451C00600A9D914 /* Movies.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -117,6 +118,8 @@
 		4DB331852451B0E400A9D914 /* ProblemStatement.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ProblemStatement.txt; sourceTree = "<group>"; };
 		4DB331862451B14900A9D914 /* Movie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Movie.cpp; sourceTree = "<group>"; };
 		4DB331872451B14900A9D914 /* Movie.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Movie.hpp; sourceTree = "<group>"; };
+		4DB331892451C00600A9D914 /* Movies.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Movies.cpp; sourceTree = "<group>"; };
+		4DB3318A2451C00600A9D914 /* Movies.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Movies.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -369,6 +372,8 @@
 				4DB331852451B0E400A9D914 /* ProblemStatement.txt */,
 				4DB331862451B14900A9D914 /* Movie.cpp */,
 				4DB331872451B14900A9D914 /* Movie.hpp */,
+				4DB331892451C00600A9D914 /* Movies.cpp */,
+				4DB3318A2451C00600A9D914 /* Movies.hpp */,
 			);
 			path = 9_MovieLibrary;
 			sourceTree = "<group>";
@@ -577,6 +582,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB3318B2451C00600A9D914 /* Movies.cpp in Sources */,
 				4DB331882451B14900A9D914 /* Movie.cpp in Sources */,
 				4DB331832451904F00A9D914 /* 6_MoveConstructors.cpp in Sources */,
 			);
