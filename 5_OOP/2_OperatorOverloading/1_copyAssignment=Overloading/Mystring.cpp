@@ -8,6 +8,17 @@
 
 #include "Mystring.hpp"
 
+//Getter Method
+unsigned Mystring::getLength() const
+{
+    return static_cast<unsigned>(strlen(str));
+}
+
+const char *Mystring::getStr() const
+{
+    return str;
+}
+
 //No arg constructor
 Mystring::Mystring()
 :str{nullptr}
@@ -46,7 +57,6 @@ Mystring::~Mystring()
     delete [ ] str;
 }
 
-
 //copy assignment
 Mystring &Mystring::operator=(const Mystring &rhs)
 {
@@ -67,13 +77,3 @@ void Mystring::display() const
     cout << str << " : " << getLength() << std::endl;
 }
 
-//Getter Method
-unsigned Mystring::getLength() const
-{
-    return static_cast<unsigned>(strlen(str));
-}
-
-const char *Mystring::getStr() const
-{
-    return str;
-}

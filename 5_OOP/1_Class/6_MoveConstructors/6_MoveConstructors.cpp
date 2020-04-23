@@ -13,7 +13,8 @@
 
 using namespace std;
 
-class Move {
+class Move
+{
 private:
     int *data;
 public:
@@ -29,7 +30,9 @@ public:
     ~Move();
 };
 
- Move::Move(int d)  {
+//Constructor
+Move::Move(int d)
+{
     data = new int;
     *data = d;
     cout << "Constructor for: " << d << endl;
@@ -37,31 +40,40 @@ public:
 
 // Copy ctor
 Move::Move(const Move &source)
-    : Move (*source.data) {
+    : Move (*source.data)
+{
         cout << "Copy constructor  - deep copy for: " << *data << endl;
 }
-#if 1
+
+
 //Move ctor
 Move::Move(Move &&source) noexcept
-    : data {source.data} {
+    : data {source.data}
+{
         source.data = nullptr;
         cout << "Move constructor - moving resource: " << *data << endl;
 }
-#endif
-Move::~Move() {
-    if (data != nullptr) {
+
+//Destructor
+Move::~Move()
+{
+    if (data != nullptr)
+    {
         cout << "Destructor freeing data for: " << *data << endl;
-    } else {
+    }
+    else
+    {
         cout << "Destructor freeing data for nullptr" << endl;
     }
     delete data;
 }
 
-int main() {
+int main()
+{
     vector<Move> vec;
-
+    
     vec.push_back(Move{10});
-
+    
     vec.push_back(Move{20});
     vec.push_back(Move{30});
     vec.push_back(Move{40});
@@ -69,8 +81,8 @@ int main() {
     vec.push_back(Move{60});
     vec.push_back(Move{70});
     vec.push_back(Move{80});
-
-
+    
+    
     return 0;
 }
 
