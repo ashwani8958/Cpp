@@ -14,6 +14,7 @@
 		4D1E97F12450597200AE7A2A /* 2_findSizeOfFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E97842450389F00AE7A2A /* 2_findSizeOfFile.cpp */; };
 		4DB331792450652A00A9D914 /* 2_References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331782450652900A9D914 /* 2_References.cpp */; };
 		4DB331832451904F00A9D914 /* 6_MoveConstructors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E97D424504DD400AE7A2A /* 6_MoveConstructors.cpp */; };
+		4DB331882451B14900A9D914 /* Movie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331862451B14900A9D914 /* Movie.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -113,6 +114,9 @@
 		4DB331782450652900A9D914 /* 2_References.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2_References.cpp; sourceTree = "<group>"; };
 		4DB3317D2451742300A9D914 /* Mystring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mystring.cpp; sourceTree = "<group>"; };
 		4DB3317E2451742300A9D914 /* Mystring.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mystring.hpp; sourceTree = "<group>"; };
+		4DB331852451B0E400A9D914 /* ProblemStatement.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ProblemStatement.txt; sourceTree = "<group>"; };
+		4DB331862451B14900A9D914 /* Movie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Movie.cpp; sourceTree = "<group>"; };
+		4DB331872451B14900A9D914 /* Movie.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Movie.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -328,6 +332,7 @@
 		4D726D9D24506194007E8781 /* 1_Class */ = {
 			isa = PBXGroup;
 			children = (
+				4DB331842451B09200A9D914 /* 9_MovieLibrary */,
 				4D1E97DD2450515400AE7A2A /* 8_FriendsClass */,
 				4D1E97D62450501400AE7A2A /* 7_staticClassMember */,
 				4D1E97D324504DB800AE7A2A /* 6_MoveConstructors */,
@@ -356,6 +361,16 @@
 				4DB3317E2451742300A9D914 /* Mystring.hpp */,
 			);
 			path = "1_MystringAssignment=Overloading";
+			sourceTree = "<group>";
+		};
+		4DB331842451B09200A9D914 /* 9_MovieLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				4DB331852451B0E400A9D914 /* ProblemStatement.txt */,
+				4DB331862451B14900A9D914 /* Movie.cpp */,
+				4DB331872451B14900A9D914 /* Movie.hpp */,
+			);
+			path = 9_MovieLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -562,6 +577,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB331882451B14900A9D914 /* Movie.cpp in Sources */,
 				4DB331832451904F00A9D914 /* 6_MoveConstructors.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

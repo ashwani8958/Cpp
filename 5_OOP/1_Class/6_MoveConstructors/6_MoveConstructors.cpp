@@ -37,17 +37,17 @@ public:
 
 // Copy ctor
 Move::Move(const Move &source)
-    : Move {*source.data} {
+    : Move (*source.data) {
         cout << "Copy constructor  - deep copy for: " << *data << endl;
 }
-
+#if 1
 //Move ctor
 Move::Move(Move &&source) noexcept
     : data {source.data} {
         source.data = nullptr;
         cout << "Move constructor - moving resource: " << *data << endl;
 }
-
+#endif
 Move::~Move() {
     if (data != nullptr) {
         cout << "Destructor freeing data for: " << *data << endl;
