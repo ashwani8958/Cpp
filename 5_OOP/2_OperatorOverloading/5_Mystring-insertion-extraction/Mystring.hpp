@@ -10,49 +10,44 @@
 #define Mystring_hpp
 
 #include <iostream>
-#include <vector>
-
 using namespace std;
 
 class Mystring
 {
-    //Make lowercase
-    friend Mystring operator-(const Mystring &obj);
     
-    //concatenate Method
-    friend Mystring operator+(const Mystring &lhs, const Mystring &rhs);
-    
-    //compare to object
-    friend bool operator==(const Mystring &lhs, const Mystring &rhs);
+    //Non-member function/method
+    friend ostream & operator<<(ostream &os, const Mystring &rhs);
+    friend istream & operator>>(istream &in, Mystring &rhs);
     
 private:
     char *str;
-    
+
 public:
+    //Getter Methods
+    unsigned getLength() const {return static_cast<unsigned>(strlen(str));}
+    char *getStr() const {return str;}
     
-    //Getter method
-    unsigned getLength()const{return static_cast<unsigned>(strlen(str));}
-    char *getStr()const{return str;}
-    
-    //Constructor
+    //No arg constructor
     Mystring();
+    
+    //Overloaded constructor
     Mystring(const char *source);
     
     //Copy Constructor
     Mystring(const Mystring &source);
     
-    //Move Constructor
+    //Move constructor
     Mystring(Mystring &&source);
     
     //Destructor
     ~Mystring();
     
-    //copy assignment
+    //Copy Assignment
     Mystring &operator=(const Mystring &rhs);
     
-    //Move assignment
+    //Move Assignment
     Mystring &operator=(Mystring &&rhs);
-        
+    
     //Display
     void display()const;
 };

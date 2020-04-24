@@ -13,9 +13,8 @@
 		4D1E97AA24503C1900AE7A2A /* 1_StringPyramid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E97A924503C1900AE7A2A /* 1_StringPyramid.cpp */; };
 		4D1E97F12450597200AE7A2A /* 2_findSizeOfFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E97842450389F00AE7A2A /* 2_findSizeOfFile.cpp */; };
 		4DB331792450652A00A9D914 /* 2_References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331782450652900A9D914 /* 2_References.cpp */; };
-		4DB331832451904F00A9D914 /* 6_MoveConstructors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E97D424504DD400AE7A2A /* 6_MoveConstructors.cpp */; };
-		4DB331882451B14900A9D914 /* Movie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331862451B14900A9D914 /* Movie.cpp */; };
-		4DB3318B2451C00600A9D914 /* Movies.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331892451C00600A9D914 /* Movies.cpp */; };
+		4DB331AE2453032300A9D914 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331AD2453032300A9D914 /* main.cpp */; };
+		4DB331B12453034100A9D914 /* Mystring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331AF2453034100A9D914 /* Mystring.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -120,6 +119,18 @@
 		4DB331872451B14900A9D914 /* Movie.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Movie.hpp; sourceTree = "<group>"; };
 		4DB331892451C00600A9D914 /* Movies.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Movies.cpp; sourceTree = "<group>"; };
 		4DB3318A2451C00600A9D914 /* Movies.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Movies.hpp; sourceTree = "<group>"; };
+		4DB3318D2451DFDF00A9D914 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DB331902451E02100A9D914 /* Mystring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mystring.cpp; sourceTree = "<group>"; };
+		4DB331912451E02100A9D914 /* Mystring.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mystring.hpp; sourceTree = "<group>"; };
+		4DB331972452D1FE00A9D914 /* Mystring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mystring.cpp; sourceTree = "<group>"; };
+		4DB331982452D1FE00A9D914 /* Mystring.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mystring.hpp; sourceTree = "<group>"; };
+		4DB3319A2452D20C00A9D914 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DB331A02452E68B00A9D914 /* Mystring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mystring.cpp; sourceTree = "<group>"; };
+		4DB331A12452E68B00A9D914 /* Mystring.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mystring.hpp; sourceTree = "<group>"; };
+		4DB331A32452E69A00A9D914 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DB331AD2453032300A9D914 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DB331AF2453034100A9D914 /* Mystring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mystring.cpp; sourceTree = "<group>"; };
+		4DB331B02453034100A9D914 /* Mystring.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mystring.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -351,19 +362,23 @@
 		4DB33175245062CB00A9D914 /* 2_OperatorOverloading */ = {
 			isa = PBXGroup;
 			children = (
-				4DB3317A245173AB00A9D914 /* 1_MystringAssignment=Overloading */,
+				4DB331A82453029A00A9D914 /* 5_Mystring-insertion-extraction */,
+				4DB3319F2452E64C00A9D914 /* 4_nonMemberFunctionOverloading-=+ */,
+				4DB331962452D09300A9D914 /* 3_memberMethodOverloading-=+ */,
+				4DB3318C2451DF7E00A9D914 /* 2_moveAssignment=Overloading */,
+				4DB3317A245173AB00A9D914 /* 1_copyAssignment=Overloading */,
 			);
 			path = 2_OperatorOverloading;
 			sourceTree = "<group>";
 		};
-		4DB3317A245173AB00A9D914 /* 1_MystringAssignment=Overloading */ = {
+		4DB3317A245173AB00A9D914 /* 1_copyAssignment=Overloading */ = {
 			isa = PBXGroup;
 			children = (
 				4DB331762450633B00A9D914 /* main.cpp */,
 				4DB3317D2451742300A9D914 /* Mystring.cpp */,
 				4DB3317E2451742300A9D914 /* Mystring.hpp */,
 			);
-			path = "1_MystringAssignment=Overloading";
+			path = "1_copyAssignment=Overloading";
 			sourceTree = "<group>";
 		};
 		4DB331842451B09200A9D914 /* 9_MovieLibrary */ = {
@@ -376,6 +391,46 @@
 				4DB3318A2451C00600A9D914 /* Movies.hpp */,
 			);
 			path = 9_MovieLibrary;
+			sourceTree = "<group>";
+		};
+		4DB3318C2451DF7E00A9D914 /* 2_moveAssignment=Overloading */ = {
+			isa = PBXGroup;
+			children = (
+				4DB3318D2451DFDF00A9D914 /* main.cpp */,
+				4DB331902451E02100A9D914 /* Mystring.cpp */,
+				4DB331912451E02100A9D914 /* Mystring.hpp */,
+			);
+			path = "2_moveAssignment=Overloading";
+			sourceTree = "<group>";
+		};
+		4DB331962452D09300A9D914 /* 3_memberMethodOverloading-=+ */ = {
+			isa = PBXGroup;
+			children = (
+				4DB331972452D1FE00A9D914 /* Mystring.cpp */,
+				4DB331982452D1FE00A9D914 /* Mystring.hpp */,
+				4DB3319A2452D20C00A9D914 /* main.cpp */,
+			);
+			path = "3_memberMethodOverloading-=+";
+			sourceTree = "<group>";
+		};
+		4DB3319F2452E64C00A9D914 /* 4_nonMemberFunctionOverloading-=+ */ = {
+			isa = PBXGroup;
+			children = (
+				4DB331A02452E68B00A9D914 /* Mystring.cpp */,
+				4DB331A12452E68B00A9D914 /* Mystring.hpp */,
+				4DB331A32452E69A00A9D914 /* main.cpp */,
+			);
+			path = "4_nonMemberFunctionOverloading-=+";
+			sourceTree = "<group>";
+		};
+		4DB331A82453029A00A9D914 /* 5_Mystring-insertion-extraction */ = {
+			isa = PBXGroup;
+			children = (
+				4DB331AD2453032300A9D914 /* main.cpp */,
+				4DB331AF2453034100A9D914 /* Mystring.cpp */,
+				4DB331B02453034100A9D914 /* Mystring.hpp */,
+			);
+			path = "5_Mystring-insertion-extraction";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -582,9 +637,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DB3318B2451C00600A9D914 /* Movies.cpp in Sources */,
-				4DB331882451B14900A9D914 /* Movie.cpp in Sources */,
-				4DB331832451904F00A9D914 /* 6_MoveConstructors.cpp in Sources */,
+				4DB331B12453034100A9D914 /* Mystring.cpp in Sources */,
+				4DB331AE2453032300A9D914 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
