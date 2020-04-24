@@ -9,7 +9,8 @@
 #include "Mystring.hpp"
 
 
-int main() {
+int main()
+{
     
     Mystring a{"Hello"};                        // Overloaded constructor
     a = Mystring{"Hola"};                       // Overloaded constructor then move assignment
@@ -55,5 +56,3 @@ int main() {
     
     return 0;
 }
-
-
