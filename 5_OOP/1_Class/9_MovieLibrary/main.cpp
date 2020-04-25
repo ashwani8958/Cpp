@@ -23,6 +23,8 @@ void addMovie(Movies &movies, string name, string rating, int watched)
     else
         cout << name << " already exists" <<  endl;
 }
+
+
 int main()
 {
     Movies myMovies;
