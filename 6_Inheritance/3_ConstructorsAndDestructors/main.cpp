@@ -25,7 +25,7 @@ public:
 class Derived : public Base
 {
   
-    //automatically inheritance
+    //automatically inheritance, it will initilised base part of object but it won't initialise drive part of object
     using Base::Base;
     
 private:
@@ -41,7 +41,7 @@ int main()
        //Base b;
        //Base b{100};
        //Derived d;
-       Derived d {1000};
+       Derived d {1000};// in base class no arg constructor is called 
        
        return 0;
 }
