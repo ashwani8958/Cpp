@@ -13,10 +13,11 @@
 		4D1E97AA24503C1900AE7A2A /* 1_StringPyramid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E97A924503C1900AE7A2A /* 1_StringPyramid.cpp */; };
 		4D1E97F12450597200AE7A2A /* 2_findSizeOfFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E97842450389F00AE7A2A /* 2_findSizeOfFile.cpp */; };
 		4DB331792450652A00A9D914 /* 2_References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331782450652900A9D914 /* 2_References.cpp */; };
-		4DB331AE2453032300A9D914 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331AD2453032300A9D914 /* main.cpp */; };
-		4DB331B12453034100A9D914 /* Mystring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331AF2453034100A9D914 /* Mystring.cpp */; };
 		4DB331BE245419BF00A9D914 /* Movie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331862451B14900A9D914 /* Movie.cpp */; };
 		4DB331BF245419BF00A9D914 /* Movies.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331892451C00600A9D914 /* Movies.cpp */; };
+		4DB331C224541D7D00A9D914 /* Movie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331862451B14900A9D914 /* Movie.cpp */; };
+		4DB331C324541D7D00A9D914 /* Movies.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331892451C00600A9D914 /* Movies.cpp */; };
+		4DB331C424541D7D00A9D914 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331C024541CFF00A9D914 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -144,6 +145,7 @@
 		4DB331B02453034100A9D914 /* Mystring.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mystring.hpp; sourceTree = "<group>"; };
 		4DB331B6245311A700A9D914 /* 6_Inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 6_Inheritance; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB331B8245311A700A9D914 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DB331C024541CFF00A9D914 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -411,6 +413,7 @@
 				4DB331872451B14900A9D914 /* Movie.hpp */,
 				4DB331892451C00600A9D914 /* Movies.cpp */,
 				4DB3318A2451C00600A9D914 /* Movies.hpp */,
+				4DB331C024541CFF00A9D914 /* main.cpp */,
 			);
 			path = 9_MovieLibrary;
 			sourceTree = "<group>";
@@ -696,8 +699,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DB331B12453034100A9D914 /* Mystring.cpp in Sources */,
-				4DB331AE2453032300A9D914 /* main.cpp in Sources */,
+				4DB331C224541D7D00A9D914 /* Movie.cpp in Sources */,
+				4DB331C324541D7D00A9D914 /* Movies.cpp in Sources */,
+				4DB331C424541D7D00A9D914 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
