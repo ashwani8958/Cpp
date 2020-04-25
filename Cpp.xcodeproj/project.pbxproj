@@ -15,7 +15,8 @@
 		4DB331792450652A00A9D914 /* 2_References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331782450652900A9D914 /* 2_References.cpp */; };
 		4DB331AE2453032300A9D914 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331AD2453032300A9D914 /* main.cpp */; };
 		4DB331B12453034100A9D914 /* Mystring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331AF2453034100A9D914 /* Mystring.cpp */; };
-		4DB331B9245311A700A9D914 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331B8245311A700A9D914 /* main.cpp */; };
+		4DB331BE245419BF00A9D914 /* Movie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331862451B14900A9D914 /* Movie.cpp */; };
+		4DB331BF245419BF00A9D914 /* Movies.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331892451C00600A9D914 /* Movies.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -704,7 +705,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DB331B9245311A700A9D914 /* main.cpp in Sources */,
+				4DB331BE245419BF00A9D914 /* Movie.cpp in Sources */,
+				4DB331BF245419BF00A9D914 /* Movies.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

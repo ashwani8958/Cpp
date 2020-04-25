@@ -13,7 +13,13 @@
 
 class Movies
 {
+private:
+    vector<Movie> movies;
     
+public:
+    bool addMovies(string movieName, string rating, int watched);
+    bool incrementWatched(string movieName);
+    void display() const;
 };
 
 #endif /* Movies_hpp */

@@ -10,6 +10,8 @@
 #define Movie_hpp
 
 #include <iostream>
+#include <vector>
+
 using namespace std;
 
 class Movie
@@ -31,7 +33,7 @@ public:
     void setMovieWatched(const int watched);
     
     //Simply increment the watched attribute by 1
-    void increment_watched();
+    void incrementWatched();
     
     //Constructor
     Movie (string moiveName, string moiveRating, int movieWatched);

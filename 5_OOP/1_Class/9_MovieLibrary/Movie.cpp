@@ -19,7 +19,7 @@ void Movie::setMovieRating(const string rating){this->rating = rating;}
 void Movie::setMovieWatched(const int watched){this->watched = watched;}
 
 //Simply increment the watched attribute by 1
-void Movie::increment_watched() { ++watched; }
+void Movie::incrementWatched() { ++watched; }
 
 //Constructor
 Movie::Movie (string movieName, string movieRating, int movieWatched)
