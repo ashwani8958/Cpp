@@ -17,19 +17,29 @@ class Base
 private:
     int value;
 public:
-   Base() : value {0}
+    
+    //No args constructor
+    Base()
+    :value(0)
     {
-        cout << "Base no-args constructor" << endl;
+        cout << "Base no args constructor" << endl;
     }
-    Base(int x)  : value {x}
+    
+    //Constructor overloading
+    Base(int x)
+    :value(x)
     {
         cout << "Base (int) overloaded constructor" << endl;
     }
-   ~Base()
+    
+    //Destructor
+    ~Base()
     {
         cout << "Base destructor" << endl;
     }
+    
 };
+
 
 class Derived : public Base
 {
@@ -37,16 +47,22 @@ private:
     int doubled_value;
 
 public:
+    
+    //No args constructor
     Derived()
-        :Base(), doubled_value {0}
+        :Base(), doubled_value (0)
     {
         cout << "Derived no-args constructor " << endl;
     }
+    
+    //Constructor overloading
     Derived(int x)
-        :Base(x),  doubled_value {x * 2}
+        :Base(x),  doubled_value (x * 2)
     {
         cout << "Derived (int) constructor" << endl;
     }
+    
+    //Destructor
     ~Derived()
     {
         cout << "Derived destructor " << endl;

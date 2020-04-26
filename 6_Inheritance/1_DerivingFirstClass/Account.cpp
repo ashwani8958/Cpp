@@ -15,7 +15,7 @@ Account::Account()
     
 }
 
-
+//Methods
 void Account::deposit(double amount)
 {
     cout << "desposit method is called for amount " << amount << endl;

@@ -9,12 +9,14 @@
 #include "SavingAccount.hpp"
 #include "Account.hpp"
 
+//No arg constructor
 SavingAccount::SavingAccount()
 :interest_rate(3.0)
 {
     
 }
 
+//Method
 void SavingAccount::deposit(double amount)
 {
     cout << "Saving Account desposit method is called for amount " << amount << endl;
