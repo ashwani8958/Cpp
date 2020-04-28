@@ -1,18 +1,36 @@
-//
-//  main.cpp
-//  0_Basic
-//
-//  Created by Ashwani on 27/04/20.
-//  Copyright © 2020 Ashwani. All rights reserved.
-//
-
+// Section 16
+// Using override
 #include <iostream>
-#include <vector>
-#include <stream>
 
-using namespace std;
+class Base {
+public:
+    virtual void say_hello() const {
+        std::cout << "Hello - I'm a Base class object" << std::endl;
+    }
+    virtual ~Base() {}
+};
 
-int main()
-{
+class Derived: public Base {
+public:
+    virtual void say_hello()  const override {             // Notice I forgot the const
+        std::cout << "Hello - I'm a Derived class object" << std::endl;
+    }
+    virtual ~Derived() {}
+};
+
+
+int main() {
+    
+    Base *p1 = new Base();      // Base::say_hello()
+    p1->say_hello();
+    
+    Derived *p2 = new Derived();    // Derived::say_hello()
+    p2->say_hello();
+    
+    Base *p3 = new Derived();   //  Base::say_hello()   ?????   I wanted Derived::say_hello()
+    p3->say_hello();
+    
+   
     return 0;
 }
+
