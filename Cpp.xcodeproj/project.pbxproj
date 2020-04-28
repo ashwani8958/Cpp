@@ -13,7 +13,7 @@
 		4D1E97AA24503C1900AE7A2A /* 1_StringPyramid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E97A924503C1900AE7A2A /* 1_StringPyramid.cpp */; };
 		4D1E97F12450597200AE7A2A /* 2_findSizeOfFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E97842450389F00AE7A2A /* 2_findSizeOfFile.cpp */; };
 		4DA223632456A6D300168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223622456A6D300168C98 /* main.cpp */; };
-		4DA2236A2456C65C00168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223692456C65C00168C98 /* main.cpp */; };
+		4DA2236D2457DA5700168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2236C2457DA5700168C98 /* main.cpp */; };
 		4DB331792450652A00A9D914 /* 2_References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331782450652900A9D914 /* 2_References.cpp */; };
 		4DB331E524555CDE00A9D914 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331762450633B00A9D914 /* main.cpp */; };
 		4DB331E624555CDE00A9D914 /* Mystring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB3317D2451742300A9D914 /* Mystring.cpp */; };
@@ -145,6 +145,7 @@
 		4DA223602456A6D300168C98 /* 0_Basic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 0_Basic; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA223622456A6D300168C98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4DA223692456C65C00168C98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DA2236C2457DA5700168C98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4DB331762450633B00A9D914 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4DB331782450652900A9D914 /* 2_References.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2_References.cpp; sourceTree = "<group>"; };
 		4DB3317D2451742300A9D914 /* Mystring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mystring.cpp; sourceTree = "<group>"; };
@@ -463,6 +464,14 @@
 			path = 2_UsingFinalAndOverride;
 			sourceTree = "<group>";
 		};
+		4DA2236B2457DA3B00168C98 /* 3_PureVirtualFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				4DA2236C2457DA5700168C98 /* main.cpp */,
+			);
+			path = 3_PureVirtualFunctions;
+			sourceTree = "<group>";
+		};
 		4DB33175245062CB00A9D914 /* 2_OperatorOverloading */ = {
 			isa = PBXGroup;
 			children = (
@@ -612,6 +621,7 @@
 			children = (
 				4DA223672456BAFB00168C98 /* 1_BaseClassPointers */,
 				4DA223682456C54F00168C98 /* 2_UsingFinalAndOverride */,
+				4DA2236B2457DA3B00168C98 /* 3_PureVirtualFunctions */,
 			);
 			path = 7_Polymorphism;
 			sourceTree = "<group>";
@@ -910,7 +920,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DA2236A2456C65C00168C98 /* main.cpp in Sources */,
+				4DA2236D2457DA5700168C98 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
