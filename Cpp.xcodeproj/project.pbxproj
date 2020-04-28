@@ -14,13 +14,11 @@
 		4D1E97F12450597200AE7A2A /* 2_findSizeOfFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E97842450389F00AE7A2A /* 2_findSizeOfFile.cpp */; };
 		4DA223632456A6D300168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223622456A6D300168C98 /* main.cpp */; };
 		4DA223702457E3B600168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2236F2457E3B600168C98 /* main.cpp */; };
-		4DA2237B2457F39F00168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2237A2457F39F00168C98 /* main.cpp */; };
-		4DA223822457F41C00168C98 /* I_Printable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223802457F41C00168C98 /* I_Printable.cpp */; };
-		4DA2238524580C0C00168C98 /* Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2238324580C0C00168C98 /* Account.cpp */; };
-		4DA223882458362600168C98 /* Account_Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223862458362600168C98 /* Account_Util.cpp */; };
-		4DA2238B24583A8B00168C98 /* Checking_Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2238924583A8B00168C98 /* Checking_Account.cpp */; };
-		4DA2238F24583C6E00168C98 /* Savings_Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2238D24583C6E00168C98 /* Savings_Account.cpp */; };
-		4DA2239224583D7D00168C98 /* Trust_Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2239024583D7D00168C98 /* Trust_Account.cpp */; };
+		4DA223982458486600168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223972458486600168C98 /* main.cpp */; };
+		4DA223AD24584E2700168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223AC24584E2700168C98 /* main.cpp */; };
+		4DA223B024584ED200168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223AF24584ED200168C98 /* main.cpp */; };
+		4DA223B324584F4400168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223B224584F4400168C98 /* main.cpp */; };
+		4DA223B624584FA200168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223B524584FA200168C98 /* main.cpp */; };
 		4DB331792450652A00A9D914 /* 2_References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331782450652900A9D914 /* 2_References.cpp */; };
 		4DB331E524555CDE00A9D914 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331762450633B00A9D914 /* main.cpp */; };
 		4DB331E624555CDE00A9D914 /* Mystring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB3317D2451742300A9D914 /* Mystring.cpp */; };
@@ -94,6 +92,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		4DA223762457F39F00168C98 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4DA2239B24584A7300168C98 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -177,6 +184,16 @@
 		4DA2238E24583C6E00168C98 /* Savings_Account.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Savings_Account.hpp; sourceTree = "<group>"; };
 		4DA2239024583D7D00168C98 /* Trust_Account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Trust_Account.cpp; sourceTree = "<group>"; };
 		4DA2239124583D7D00168C98 /* Trust_Account.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Trust_Account.hpp; sourceTree = "<group>"; };
+		4DA22394245847AF00168C98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DA223972458486600168C98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DA2239D24584A7300168C98 /* 9_ExceptionHandling */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 9_ExceptionHandling; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA2239F24584A7300168C98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DA223A624584B4300168C98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DA223A924584BCF00168C98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DA223AC24584E2700168C98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DA223AF24584ED200168C98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DA223B224584F4400168C98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DA223B524584FA200168C98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4DB331762450633B00A9D914 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4DB331782450652900A9D914 /* 2_References.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2_References.cpp; sourceTree = "<group>"; };
 		4DB3317D2451742300A9D914 /* Mystring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mystring.cpp; sourceTree = "<group>"; };
@@ -275,6 +292,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4DA2239A24584A7300168C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4DB331B3245311A700A9D914 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -305,6 +329,7 @@
 				4DB331B7245311A700A9D914 /* 6_Inheritance */,
 				4DB331FA2455740400A9D914 /* 7_Polymorphism */,
 				4DA223792457F39F00168C98 /* 8_SmartPointer */,
+				4DA2239E24584A7300168C98 /* 9_ExceptionHandling */,
 				4D1E9769245034A500AE7A2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -322,6 +347,7 @@
 				4DB331F92455740400A9D914 /* 7_Polymorphism */,
 				4DA223602456A6D300168C98 /* 0_Basic */,
 				4DA223782457F39F00168C98 /* 8_SmartPointer */,
+				4DA2239D24584A7300168C98 /* 9_ExceptionHandling */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -523,12 +549,14 @@
 		4DA223792457F39F00168C98 /* 8_SmartPointer */ = {
 			isa = PBXGroup;
 			children = (
-				4DA2237F2457F3AA00168C98 /* 1_UniquePointer */,
+				4DA2237F2457F3AA00168C98 /* 1_UniqueAndSharedPointer */,
+				4DA223932458479800168C98 /* 2_WeakPointers */,
+				4DA223962458483D00168C98 /* 3_CustomDeleters */,
 			);
 			path = 8_SmartPointer;
 			sourceTree = "<group>";
 		};
-		4DA2237F2457F3AA00168C98 /* 1_UniquePointer */ = {
+		4DA2237F2457F3AA00168C98 /* 1_UniqueAndSharedPointer */ = {
 			isa = PBXGroup;
 			children = (
 				4DA223862458362600168C98 /* Account_Util.cpp */,
@@ -545,7 +573,93 @@
 				4DA2239024583D7D00168C98 /* Trust_Account.cpp */,
 				4DA2239124583D7D00168C98 /* Trust_Account.hpp */,
 			);
-			path = 1_UniquePointer;
+			path = 1_UniqueAndSharedPointer;
+			sourceTree = "<group>";
+		};
+		4DA223932458479800168C98 /* 2_WeakPointers */ = {
+			isa = PBXGroup;
+			children = (
+				4DA22394245847AF00168C98 /* main.cpp */,
+			);
+			path = 2_WeakPointers;
+			sourceTree = "<group>";
+		};
+		4DA223962458483D00168C98 /* 3_CustomDeleters */ = {
+			isa = PBXGroup;
+			children = (
+				4DA223972458486600168C98 /* main.cpp */,
+			);
+			path = 3_CustomDeleters;
+			sourceTree = "<group>";
+		};
+		4DA2239E24584A7300168C98 /* 9_ExceptionHandling */ = {
+			isa = PBXGroup;
+			children = (
+				4DA223A424584A7B00168C98 /* 1_DivideByZeroException */,
+				4DA223A524584B0900168C98 /* 2_DivideByZeroExceptionClasses */,
+				4DA223A824584BA900168C98 /* 3_ExceptionCatchInFunction */,
+				4DA223AB24584DC300168C98 /* 4_FunctionExceptionClasses */,
+				4DA223AE24584EBD00168C98 /* 5_FunctionMultipleExceptions */,
+				4DA223B124584F2D00168C98 /* 6_FunctionExceptionInheritance */,
+				4DA223B424584F8D00168C98 /* 7_StackUnwinding */,
+			);
+			path = 9_ExceptionHandling;
+			sourceTree = "<group>";
+		};
+		4DA223A424584A7B00168C98 /* 1_DivideByZeroException */ = {
+			isa = PBXGroup;
+			children = (
+				4DA2239F24584A7300168C98 /* main.cpp */,
+			);
+			path = 1_DivideByZeroException;
+			sourceTree = "<group>";
+		};
+		4DA223A524584B0900168C98 /* 2_DivideByZeroExceptionClasses */ = {
+			isa = PBXGroup;
+			children = (
+				4DA223A624584B4300168C98 /* main.cpp */,
+			);
+			path = 2_DivideByZeroExceptionClasses;
+			sourceTree = "<group>";
+		};
+		4DA223A824584BA900168C98 /* 3_ExceptionCatchInFunction */ = {
+			isa = PBXGroup;
+			children = (
+				4DA223A924584BCF00168C98 /* main.cpp */,
+			);
+			path = 3_ExceptionCatchInFunction;
+			sourceTree = "<group>";
+		};
+		4DA223AB24584DC300168C98 /* 4_FunctionExceptionClasses */ = {
+			isa = PBXGroup;
+			children = (
+				4DA223AC24584E2700168C98 /* main.cpp */,
+			);
+			path = 4_FunctionExceptionClasses;
+			sourceTree = "<group>";
+		};
+		4DA223AE24584EBD00168C98 /* 5_FunctionMultipleExceptions */ = {
+			isa = PBXGroup;
+			children = (
+				4DA223AF24584ED200168C98 /* main.cpp */,
+			);
+			path = 5_FunctionMultipleExceptions;
+			sourceTree = "<group>";
+		};
+		4DA223B124584F2D00168C98 /* 6_FunctionExceptionInheritance */ = {
+			isa = PBXGroup;
+			children = (
+				4DA223B224584F4400168C98 /* main.cpp */,
+			);
+			path = 6_FunctionExceptionInheritance;
+			sourceTree = "<group>";
+		};
+		4DA223B424584F8D00168C98 /* 7_StackUnwinding */ = {
+			isa = PBXGroup;
+			children = (
+				4DA223B524584FA200168C98 /* main.cpp */,
+			);
+			path = 7_StackUnwinding;
 			sourceTree = "<group>";
 		};
 		4DB33175245062CB00A9D914 /* 2_OperatorOverloading */ = {
@@ -842,6 +956,23 @@
 			productReference = 4DA223782457F39F00168C98 /* 8_SmartPointer */;
 			productType = "com.apple.product-type.tool";
 		};
+		4DA2239C24584A7300168C98 /* 9_ExceptionHandling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DA223A124584A7300168C98 /* Build configuration list for PBXNativeTarget "9_ExceptionHandling" */;
+			buildPhases = (
+				4DA2239924584A7300168C98 /* Sources */,
+				4DA2239A24584A7300168C98 /* Frameworks */,
+				4DA2239B24584A7300168C98 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 9_ExceptionHandling;
+			productName = 9_ExceptionHandling;
+			productReference = 4DA2239D24584A7300168C98 /* 9_ExceptionHandling */;
+			productType = "com.apple.product-type.tool";
+		};
 		4DB331B5245311A700A9D914 /* 6_Inheritance */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DB331BA245311A700A9D914 /* Build configuration list for PBXNativeTarget "6_Inheritance" */;
@@ -910,6 +1041,9 @@
 					4DA223772457F39F00168C98 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
+					4DA2239C24584A7300168C98 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
 					4DB331B5245311A700A9D914 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
@@ -941,6 +1075,7 @@
 				4DB331B5245311A700A9D914 /* 6_Inheritance */,
 				4DB331F82455740400A9D914 /* 7_Polymorphism */,
 				4DA223772457F39F00168C98 /* 8_SmartPointer */,
+				4DA2239C24584A7300168C98 /* 9_ExceptionHandling */,
 			);
 		};
 /* End PBXProject section */
@@ -1008,13 +1143,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DA2238B24583A8B00168C98 /* Checking_Account.cpp in Sources */,
-				4DA2237B2457F39F00168C98 /* main.cpp in Sources */,
-				4DA2239224583D7D00168C98 /* Trust_Account.cpp in Sources */,
-				4DA2238524580C0C00168C98 /* Account.cpp in Sources */,
-				4DA2238F24583C6E00168C98 /* Savings_Account.cpp in Sources */,
-				4DA223822457F41C00168C98 /* I_Printable.cpp in Sources */,
-				4DA223882458362600168C98 /* Account_Util.cpp in Sources */,
+				4DA223982458486600168C98 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA2239924584A7300168C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA223B024584ED200168C98 /* main.cpp in Sources */,
+				4DA223AD24584E2700168C98 /* main.cpp in Sources */,
+				4DA223B624584FA200168C98 /* main.cpp in Sources */,
+				4DA223B324584F4400168C98 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1276,6 +1416,22 @@
 			};
 			name = Release;
 		};
+		4DA223A224584A7300168C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DA223A324584A7300168C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		4DB331BB245311A700A9D914 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1388,6 +1544,15 @@
 			buildConfigurations = (
 				4DA2237D2457F39F00168C98 /* Debug */,
 				4DA2237E2457F39F00168C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DA223A124584A7300168C98 /* Build configuration list for PBXNativeTarget "9_ExceptionHandling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA223A224584A7300168C98 /* Debug */,
+				4DA223A324584A7300168C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
