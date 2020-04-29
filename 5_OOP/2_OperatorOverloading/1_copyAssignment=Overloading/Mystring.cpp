@@ -61,8 +61,9 @@ Mystring::~Mystring()
 Mystring &Mystring::operator=(const Mystring &rhs)
 {
     cout << "Copy assignment" << std::endl;
+    //If object(both object are equal) on the both side of the = is equal then no copy is required
     if(this == &rhs)
-        return *this;       //If object(both object are equal) on the both side of the = is equal then no copy is                      required
+        return *this;
     
     //First delete the data of pointed by the "str" on the heap before it point to the new data
     delete [ ]this->str;
