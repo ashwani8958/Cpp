@@ -28,8 +28,14 @@
 		4D86D2B12459A6D800359FAC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D86D2B02459A6D800359FAC /* main.cpp */; };
 		4DA223632456A6D300168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223622456A6D300168C98 /* main.cpp */; };
 		4DA223982458486600168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223972458486600168C98 /* main.cpp */; };
-		4DA223B624584FA200168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223B524584FA200168C98 /* main.cpp */; };
 		4DB331792450652A00A9D914 /* 2_References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331782450652900A9D914 /* 2_References.cpp */; };
+		4DF70F952459C55F00942A5E /* I_Printable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF70F932459C55F00942A5E /* I_Printable.cpp */; };
+		4DF70F9A2459C7A400942A5E /* Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF70F982459C7A400942A5E /* Account.cpp */; };
+		4DF70F9D2459C9C600942A5E /* Checking_Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF70F9B2459C9C600942A5E /* Checking_Account.cpp */; };
+		4DF70FA02459CB9700942A5E /* Savings_Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF70F9E2459CB9700942A5E /* Savings_Account.cpp */; };
+		4DF70FA32459CC3900942A5E /* Trust_Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF70FA12459CC3900942A5E /* Trust_Account.cpp */; };
+		4DF70FA62459D66100942A5E /* Account_Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF70FA42459D66100942A5E /* Account_Util.cpp */; };
+		4DF70FA82459D6DF00942A5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF70FA72459D6DF00942A5E /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -275,6 +281,21 @@
 		4DB331F1245572BA00A9D914 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4DB331F92455740400A9D914 /* 7_Polymorphism */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 7_Polymorphism; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB331FB2455740400A9D914 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DF70F932459C55F00942A5E /* I_Printable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = I_Printable.cpp; sourceTree = "<group>"; };
+		4DF70F942459C55F00942A5E /* I_Printable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = I_Printable.hpp; sourceTree = "<group>"; };
+		4DF70F962459C6D100942A5E /* InsufficientFundsException.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InsufficientFundsException.hpp; sourceTree = "<group>"; };
+		4DF70F972459C75B00942A5E /* IllegalBalanceException.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IllegalBalanceException.hpp; sourceTree = "<group>"; };
+		4DF70F982459C7A400942A5E /* Account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Account.cpp; sourceTree = "<group>"; };
+		4DF70F992459C7A400942A5E /* Account.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Account.hpp; sourceTree = "<group>"; };
+		4DF70F9B2459C9C600942A5E /* Checking_Account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Checking_Account.cpp; sourceTree = "<group>"; };
+		4DF70F9C2459C9C600942A5E /* Checking_Account.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Checking_Account.hpp; sourceTree = "<group>"; };
+		4DF70F9E2459CB9700942A5E /* Savings_Account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Savings_Account.cpp; sourceTree = "<group>"; };
+		4DF70F9F2459CB9700942A5E /* Savings_Account.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Savings_Account.hpp; sourceTree = "<group>"; };
+		4DF70FA12459CC3900942A5E /* Trust_Account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Trust_Account.cpp; sourceTree = "<group>"; };
+		4DF70FA22459CC3900942A5E /* Trust_Account.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Trust_Account.hpp; sourceTree = "<group>"; };
+		4DF70FA42459D66100942A5E /* Account_Util.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Account_Util.cpp; sourceTree = "<group>"; };
+		4DF70FA52459D66100942A5E /* Account_Util.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Account_Util.hpp; sourceTree = "<group>"; };
+		4DF70FA72459D6DF00942A5E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -611,7 +632,22 @@
 		4D86D2AE2459A6A400359FAC /* 8_Practice */ = {
 			isa = PBXGroup;
 			children = (
+				4DF70FA42459D66100942A5E /* Account_Util.cpp */,
+				4DF70FA52459D66100942A5E /* Account_Util.hpp */,
+				4DF70F982459C7A400942A5E /* Account.cpp */,
+				4DF70F992459C7A400942A5E /* Account.hpp */,
+				4DF70F9B2459C9C600942A5E /* Checking_Account.cpp */,
+				4DF70F9C2459C9C600942A5E /* Checking_Account.hpp */,
 				4D86D2AF2459A6BC00359FAC /* Description.txt */,
+				4DF70F932459C55F00942A5E /* I_Printable.cpp */,
+				4DF70F942459C55F00942A5E /* I_Printable.hpp */,
+				4DF70F972459C75B00942A5E /* IllegalBalanceException.hpp */,
+				4DF70F962459C6D100942A5E /* InsufficientFundsException.hpp */,
+				4DF70FA72459D6DF00942A5E /* main.cpp */,
+				4DF70F9E2459CB9700942A5E /* Savings_Account.cpp */,
+				4DF70F9F2459CB9700942A5E /* Savings_Account.hpp */,
+				4DF70FA12459CC3900942A5E /* Trust_Account.cpp */,
+				4DF70FA22459CC3900942A5E /* Trust_Account.hpp */,
 			);
 			path = 8_Practice;
 			sourceTree = "<group>";
@@ -1277,7 +1313,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DA223B624584FA200168C98 /* main.cpp in Sources */,
+				4DF70FA62459D66100942A5E /* Account_Util.cpp in Sources */,
+				4DF70F9D2459C9C600942A5E /* Checking_Account.cpp in Sources */,
+				4DF70F9A2459C7A400942A5E /* Account.cpp in Sources */,
+				4DF70FA02459CB9700942A5E /* Savings_Account.cpp in Sources */,
+				4DF70FA32459CC3900942A5E /* Trust_Account.cpp in Sources */,
+				4DF70FA82459D6DF00942A5E /* main.cpp in Sources */,
+				4DF70F952459C55F00942A5E /* I_Printable.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
