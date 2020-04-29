@@ -21,6 +21,7 @@ void func_a() {
 
 void func_b() {
     std::cout << "Starting func_b" << std::endl;
+//    func_c();
     try {
         func_c();
     }

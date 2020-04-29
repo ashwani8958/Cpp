@@ -15,9 +15,6 @@
 		4DA223632456A6D300168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223622456A6D300168C98 /* main.cpp */; };
 		4DA223702457E3B600168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2236F2457E3B600168C98 /* main.cpp */; };
 		4DA223982458486600168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223972458486600168C98 /* main.cpp */; };
-		4DA223AD24584E2700168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223AC24584E2700168C98 /* main.cpp */; };
-		4DA223B024584ED200168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223AF24584ED200168C98 /* main.cpp */; };
-		4DA223B324584F4400168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223B224584F4400168C98 /* main.cpp */; };
 		4DA223B624584FA200168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223B524584FA200168C98 /* main.cpp */; };
 		4DB331792450652A00A9D914 /* 2_References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331782450652900A9D914 /* 2_References.cpp */; };
 		4DB331E524555CDE00A9D914 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331762450633B00A9D914 /* main.cpp */; };
@@ -1151,10 +1148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DA223B024584ED200168C98 /* main.cpp in Sources */,
-				4DA223AD24584E2700168C98 /* main.cpp in Sources */,
 				4DA223B624584FA200168C98 /* main.cpp in Sources */,
-				4DA223B324584F4400168C98 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
