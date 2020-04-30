@@ -25,7 +25,7 @@
 		4D86D2A52459A1D800359FAC /* Account_Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D86D2A32459A1D800359FAC /* Account_Util.cpp */; };
 		4D86D2A72459A2E300359FAC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D86D2A62459A2E300359FAC /* main.cpp */; };
 		4D86D2B12459A6D800359FAC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D86D2B02459A6D800359FAC /* main.cpp */; };
-		4D9E3D36245AD6EC0089DA0F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E3D35245AD6EC0089DA0F /* main.cpp */; };
+		4D9E3D3C245ADB9A0089DA0F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E3D3B245ADB9A0089DA0F /* main.cpp */; };
 		4DA223632456A6D300168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223622456A6D300168C98 /* main.cpp */; };
 		4DA223982458486600168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223972458486600168C98 /* main.cpp */; };
 		4DB331792450652A00A9D914 /* 2_References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331782450652900A9D914 /* 2_References.cpp */; };
@@ -228,6 +228,9 @@
 		4D9E3D33245AD6710089DA0F /* poem.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = poem.txt; sourceTree = "<group>"; };
 		4D9E3D35245AD6EC0089DA0F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4D9E3D37245AD7910089DA0F /* poem_out.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = poem_out.txt; sourceTree = "<group>"; };
+		4D9E3D39245ADB520089DA0F /* romeoandjuliet.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = romeoandjuliet.txt; sourceTree = "<group>"; };
+		4D9E3D3A245ADB7F0089DA0F /* romeoandjuliet_out.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = romeoandjuliet_out.txt; sourceTree = "<group>"; };
+		4D9E3D3B245ADB9A0089DA0F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4DA223602456A6D300168C98 /* 0_Basic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 0_Basic; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA223622456A6D300168C98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4DA223692456C65C00168C98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -715,6 +718,7 @@
 			isa = PBXGroup;
 			children = (
 				4D9E3D32245AD6550089DA0F /* 1_CopyFiles */,
+				4D9E3D38245ADB0B0089DA0F /* 2_CopyFilesWithLineNumber */,
 			);
 			path = 3_Write;
 			sourceTree = "<group>";
@@ -727,6 +731,16 @@
 				4D9E3D33245AD6710089DA0F /* poem.txt */,
 			);
 			path = 1_CopyFiles;
+			sourceTree = "<group>";
+		};
+		4D9E3D38245ADB0B0089DA0F /* 2_CopyFilesWithLineNumber */ = {
+			isa = PBXGroup;
+			children = (
+				4D9E3D3B245ADB9A0089DA0F /* main.cpp */,
+				4D9E3D3A245ADB7F0089DA0F /* romeoandjuliet_out.txt */,
+				4D9E3D39245ADB520089DA0F /* romeoandjuliet.txt */,
+			);
+			path = 2_CopyFilesWithLineNumber;
 			sourceTree = "<group>";
 		};
 		4DA223612456A6D300168C98 /* 0_Basic */ = {
@@ -1428,7 +1442,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D9E3D36245AD6EC0089DA0F /* main.cpp in Sources */,
+				4D9E3D3C245ADB9A0089DA0F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
