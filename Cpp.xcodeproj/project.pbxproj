@@ -30,8 +30,7 @@
 		4DA223632456A6D300168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223622456A6D300168C98 /* main.cpp */; };
 		4DA223982458486600168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223972458486600168C98 /* main.cpp */; };
 		4DB331792450652A00A9D914 /* 2_References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331782450652900A9D914 /* 2_References.cpp */; };
-		4DEE7E4A245BC6A70010FC11 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE7E49245BC6A70010FC11 /* main.cpp */; };
-		4DEE7E60245BE6880010FC11 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE7E5F245BE6880010FC11 /* main.cpp */; };
+		4DEE7E6A245C29370010FC11 /* algorithmMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE7E69245C29370010FC11 /* algorithmMain.cpp */; };
 		4DF70F952459C55F00942A5E /* I_Printable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF70F932459C55F00942A5E /* I_Printable.cpp */; };
 		4DF70F9A2459C7A400942A5E /* Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF70F982459C7A400942A5E /* Account.cpp */; };
 		4DF70F9D2459C9C600942A5E /* Checking_Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF70F9B2459C9C600942A5E /* Checking_Account.cpp */; };
@@ -318,6 +317,9 @@
 		4DEE7E49245BC6A70010FC11 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4DEE7E5F245BE6880010FC11 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4DEE7E61245BE6A90010FC11 /* genericClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = genericClass.hpp; sourceTree = "<group>"; };
+		4DEE7E63245BFB630010FC11 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DEE7E66245C1F8A0010FC11 /* IteratorsMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IteratorsMain.cpp; sourceTree = "<group>"; };
+		4DEE7E69245C29370010FC11 /* algorithmMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = algorithmMain.cpp; sourceTree = "<group>"; };
 		4DF70F932459C55F00942A5E /* I_Printable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = I_Printable.cpp; sourceTree = "<group>"; };
 		4DF70F942459C55F00942A5E /* I_Printable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = I_Printable.hpp; sourceTree = "<group>"; };
 		4DF70F962459C6D100942A5E /* InsufficientFundsException.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InsufficientFundsException.hpp; sourceTree = "<group>"; };
@@ -771,8 +773,11 @@
 		4D9E3D42245ADEB90089DA0F /* 11_TheStandardTemplateLibrary(STL) */ = {
 			isa = PBXGroup;
 			children = (
-				4DEE7E5E245BE6590010FC11 /* 2_GenericClassTemplate */,
+				4DEE7E68245C29040010FC11 /* 5_Algorithms */,
 				4DEE7E48245BC58B0010FC11 /* 1_GenericFunctionTemplate */,
+				4DEE7E5E245BE6590010FC11 /* 2_GenericClassTemplate */,
+				4DEE7E62245BEA330010FC11 /* 3_GenericClassArrayTemplate */,
+				4DEE7E65245C1F640010FC11 /* 4_Iterators */,
 			);
 			path = "11_TheStandardTemplateLibrary(STL)";
 			sourceTree = "<group>";
@@ -1124,10 +1129,34 @@
 		4DEE7E5E245BE6590010FC11 /* 2_GenericClassTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				4DEE7E5F245BE6880010FC11 /* main.cpp */,
 				4DEE7E61245BE6A90010FC11 /* genericClass.hpp */,
+				4DEE7E5F245BE6880010FC11 /* main.cpp */,
 			);
 			path = 2_GenericClassTemplate;
+			sourceTree = "<group>";
+		};
+		4DEE7E62245BEA330010FC11 /* 3_GenericClassArrayTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				4DEE7E63245BFB630010FC11 /* main.cpp */,
+			);
+			path = 3_GenericClassArrayTemplate;
+			sourceTree = "<group>";
+		};
+		4DEE7E65245C1F640010FC11 /* 4_Iterators */ = {
+			isa = PBXGroup;
+			children = (
+				4DEE7E66245C1F8A0010FC11 /* IteratorsMain.cpp */,
+			);
+			path = 4_Iterators;
+			sourceTree = "<group>";
+		};
+		4DEE7E68245C29040010FC11 /* 5_Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				4DEE7E69245C29370010FC11 /* algorithmMain.cpp */,
+			);
+			path = 5_Algorithms;
 			sourceTree = "<group>";
 		};
 		4DFE0BAE245A9A9D007AA064 /* 10_IOAndStream */ = {
@@ -1565,8 +1594,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DEE7E60245BE6880010FC11 /* main.cpp in Sources */,
-				4DEE7E4A245BC6A70010FC11 /* main.cpp in Sources */,
+				4DEE7E6A245C29370010FC11 /* algorithmMain.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
