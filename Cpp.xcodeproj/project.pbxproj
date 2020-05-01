@@ -26,11 +26,12 @@
 		4D86D2A72459A2E300359FAC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D86D2A62459A2E300359FAC /* main.cpp */; };
 		4D86D2B12459A6D800359FAC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D86D2B02459A6D800359FAC /* main.cpp */; };
 		4D9E3D3C245ADB9A0089DA0F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E3D3B245ADB9A0089DA0F /* main.cpp */; };
-		4D9E3D44245ADEB90089DA0F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E3D43245ADEB90089DA0F /* main.cpp */; };
 		4D9E3D4A245AE0A50089DA0F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E3D49245AE0A50089DA0F /* main.cpp */; };
 		4DA223632456A6D300168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223622456A6D300168C98 /* main.cpp */; };
 		4DA223982458486600168C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA223972458486600168C98 /* main.cpp */; };
 		4DB331792450652A00A9D914 /* 2_References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB331782450652900A9D914 /* 2_References.cpp */; };
+		4DEE7E4A245BC6A70010FC11 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE7E49245BC6A70010FC11 /* main.cpp */; };
+		4DEE7E60245BE6880010FC11 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE7E5F245BE6880010FC11 /* main.cpp */; };
 		4DF70F952459C55F00942A5E /* I_Printable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF70F932459C55F00942A5E /* I_Printable.cpp */; };
 		4DF70F9A2459C7A400942A5E /* Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF70F982459C7A400942A5E /* Account.cpp */; };
 		4DF70F9D2459C9C600942A5E /* Checking_Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DF70F9B2459C9C600942A5E /* Checking_Account.cpp */; };
@@ -242,7 +243,6 @@
 		4D9E3D3A245ADB7F0089DA0F /* romeoandjuliet_out.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = romeoandjuliet_out.txt; sourceTree = "<group>"; };
 		4D9E3D3B245ADB9A0089DA0F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4D9E3D41245ADEB90089DA0F /* 11_TheStandardTemplateLibrary(STL) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11_TheStandardTemplateLibrary(STL)"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D9E3D43245ADEB90089DA0F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4D9E3D49245AE0A50089DA0F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4DA223602456A6D300168C98 /* 0_Basic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 0_Basic; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA223622456A6D300168C98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -315,6 +315,9 @@
 		4DB331F1245572BA00A9D914 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4DB331F92455740400A9D914 /* 7_Polymorphism */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 7_Polymorphism; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB331FB2455740400A9D914 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DEE7E49245BC6A70010FC11 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DEE7E5F245BE6880010FC11 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DEE7E61245BE6A90010FC11 /* genericClass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = genericClass.hpp; sourceTree = "<group>"; };
 		4DF70F932459C55F00942A5E /* I_Printable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = I_Printable.cpp; sourceTree = "<group>"; };
 		4DF70F942459C55F00942A5E /* I_Printable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = I_Printable.hpp; sourceTree = "<group>"; };
 		4DF70F962459C6D100942A5E /* InsufficientFundsException.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InsufficientFundsException.hpp; sourceTree = "<group>"; };
@@ -768,7 +771,8 @@
 		4D9E3D42245ADEB90089DA0F /* 11_TheStandardTemplateLibrary(STL) */ = {
 			isa = PBXGroup;
 			children = (
-				4D9E3D43245ADEB90089DA0F /* main.cpp */,
+				4DEE7E5E245BE6590010FC11 /* 2_GenericClassTemplate */,
+				4DEE7E48245BC58B0010FC11 /* 1_GenericFunctionTemplate */,
 			);
 			path = "11_TheStandardTemplateLibrary(STL)";
 			sourceTree = "<group>";
@@ -1107,6 +1111,23 @@
 				4D86D293245998AA00359FAC /* 5_Practice */,
 			);
 			path = 7_Polymorphism;
+			sourceTree = "<group>";
+		};
+		4DEE7E48245BC58B0010FC11 /* 1_GenericFunctionTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				4DEE7E49245BC6A70010FC11 /* main.cpp */,
+			);
+			path = 1_GenericFunctionTemplate;
+			sourceTree = "<group>";
+		};
+		4DEE7E5E245BE6590010FC11 /* 2_GenericClassTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				4DEE7E5F245BE6880010FC11 /* main.cpp */,
+				4DEE7E61245BE6A90010FC11 /* genericClass.hpp */,
+			);
+			path = 2_GenericClassTemplate;
 			sourceTree = "<group>";
 		};
 		4DFE0BAE245A9A9D007AA064 /* 10_IOAndStream */ = {
@@ -1544,7 +1565,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D9E3D44245ADEB90089DA0F /* main.cpp in Sources */,
+				4DEE7E60245BE6880010FC11 /* main.cpp in Sources */,
+				4DEE7E4A245BC6A70010FC11 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

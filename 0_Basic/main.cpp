@@ -14,6 +14,11 @@
 
 using namespace std;
 
+#if 0
+
+#endif
+
+#if 1
 int main()
 {
     string wordToFind, readWordfromfile, filename = "../3_WordFinder/romeoandjuliet.txt", line;
@@ -43,3 +48,4 @@ int main()
     cout << "The substring " << wordToFind << " was found " << foundWordCount << " times " << endl;
     return 0;
 }
+#endif
