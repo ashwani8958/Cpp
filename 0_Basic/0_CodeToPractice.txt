@@ -1,0 +1,4 @@
+1. https://www.geeksforgeeks.org/check-given-four-points-form-square/
+2. https://www.geeksforgeeks.org/find-four-points-such-that-they-form-a-square-whose-sides-are-parallel-to-x-and-y-axes/?ref=rp
+3. https://www.geeksforgeeks.org/maximum-squares-possible-parallel-to-both-axes-from-n-distinct-points/?ref=rp
+4. https://www.geeksforgeeks.org/find-minimum-area-of-rectangle-with-given-set-of-coordinates/?ref=rp
