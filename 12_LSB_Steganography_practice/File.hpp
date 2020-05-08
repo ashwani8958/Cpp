@@ -24,21 +24,35 @@ using namespace std;
 class File
 {
 private:
+    static constexpr const char *defName = "Unnamed";
+    static constexpr const char *defExtension = "No Extension";
+    static constexpr unsigned initialValue = 0;
+    
+protected:
     string fileName;
     string fileExtension;
+    unsigned long fileSize;
     int hPixel;
     int vPixel;
-    
 public:
+
+    File(string fileName = defName, string fileExtension = defExtension, int hPixel = initialValue, int vPixel = initialValue, unsigned long fileSize = initialValue);
+    
     //Getter
-    string getFileExtension() const;
+    virtual string getFileExtension() const = 0;
+    virtual unsigned long getFileSize() const = 0;
     
     //Setter
-    void setFileExtension(const string &fileExtension);
+    virtual void setFileExtension(const string &fileExtension) = 0;
+    virtual void setFileSize(const unsigned long fileSize) = 0;
     
-    bool findExtension(File &objFile);
-    void storeFileName(string filename);
-    void readHeader(File &objFile);
+    virtual void findFileSize(const string fileName) = 0;
+    
+//    virtual bool findExtension(File &objFile) = 0;
+//    virtual void storeFileName(string filename) = 0;
+//    virtual void readHeader(File &objFile) = 0;
+    
+    ~File() = default;
     
 };
 
