@@ -24,7 +24,7 @@ public:
   int getHealth(){return health;}
   int getXP(){return xp;}
 
-  //// Constructor Initialization
+  //Constructor Initialization
   Player (string name="None", int health = 0, int xp = 0);
 
   //copy Constructor
@@ -56,13 +56,16 @@ void display_player(Player p) {
 int main() {
     Player empty {"XXXXXX", 100, 50};
 
-    Player my_new_object {empty};
+    Player newP;
+    newP = empty;
+    display_player(newP);
+//    Player my_new_object {empty};
+//
+//    display_player(empty);
 
-    display_player(empty);
-
-    Player frank {"Frank"};
-    Player hero {"Hero", 100};
-    Player villain {"Villain", 100, 55};
+//    Player frank {"Frank"};
+//    Player hero {"Hero", 100};
+//    Player villain {"Villain", 100, 55};
 
     return 0;
 }
