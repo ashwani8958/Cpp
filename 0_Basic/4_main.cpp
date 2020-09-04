@@ -4,71 +4,50 @@
 
 using namespace std;
 
-class matrix
+class space
 {
-    int **ptr;
-    int D1, D2;
+    
+    friend void operator+(space &obj);
+    
+    int x;
+    int y;
+    
 public:
-    void setValue(int IndexI, int IndexJ, int value)
+    space(int x = 1, int y = 1)
+    :x(x), y(y)
     {
-        ptr[IndexI][IndexJ] = value;
+        
     }
     
-    int getValue(int IndexI, int IndexJ)
+    void getdata() const
     {
-        return ptr[IndexI][IndexJ];
+        cout << "X: "<< x << endl;
+        cout << "y: "<< y << endl;
+        
     }
     
-    matrix(int x, int y)
-    :D1(x), D2(y)
+    void operator-()
     {
-        ptr = new int*[D1]; //Array of the pointer
-        size_t i;
-        for(i = 0; i < D1; i++)
-            ptr[i] = new int [D2]; //create space for each row
-    }
-    
-    ~matrix()
-    {
-        for(int i = 0; i < D1; i++)
-        {
-            cout << "deconstructor for int\n";
-            delete ptr[i];
-        }
-        cout << "deconstructor for array\n";
-        delete ptr;
+        x = -x;
+        y = -y;
     }
 };
 
+void operator+(space &obj)
+{
+    obj.x = -obj.x;
+    obj.y = -obj.y;
+}
+
 int main()
 {
-    int D1, D2, item;
-    int indexI, indexJ;
+    space S1;
     
+    S1.getdata();
     
-    cout << "Enter the size of matix: ";
-    cin >> D1 >> D2;
-    matrix M1(D1,D2);
+    -S1;
     
-    cout << "Enter the array items: ";
-    for(indexI = 0; indexI < D1; indexI++)
-    {
-        for (indexJ = 0; indexJ < D2; indexJ++)
-        {
-            cin >> item;
-            M1.setValue(indexI, indexJ, item);
-        }
-    }
+    S1.getdata();
     
-    for(indexI = 0; indexI < D1; indexI++)
-    {
-        for (indexJ = 0; indexJ < D2; indexJ++)
-        {
-            cout << setw(5) << M1.getValue(indexI, indexJ) ;
-        }
-        cout << endl;
-    }
-    
-    
-    return 0;
+    +(S1);
 }
