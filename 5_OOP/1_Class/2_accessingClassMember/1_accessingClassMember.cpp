@@ -46,37 +46,39 @@ public:
 
 int main()
 {
-  //Class object of player
-  Player frank, jim;
-  frank.name = "Frank";
-  frank.health = 100;
-  frank.xp = 87;
-  frank.talk("Hi there");                 //Frank says Hi there
-
-  jim.name = "Jim";
-  jim.talk("Hi there");                   //Jim says Hi there
-
-  //Pointer to a class object
-  Player *enemy = new Player;             //Memory will be allocated from the heap
-  enemy->name = "Enemy";
-  enemy->health = 100;
-  enemy->xp = 78;
-
-  enemy->talk("I will find you");
-
-  //Class object of Account
-  Account frankAccount;
-  frankAccount.name = "Frank";
-  frankAccount.balance = 100;
-
-  frankAccount.withdraw(50);
-  frankAccount.deposite(25);
-
-  //Pointer to a class object
-  Account *jimAccount = new Account;       //Memory will be allocated from the heap
-  jimAccount->name = "Jim";
-  jimAccount->balance = 400;
-
-
-  return 0;
+    //Class object of player
+    Player frank, jim;
+    frank.name = "Frank";
+    frank.health = 100;
+    frank.xp = 87;
+    frank.talk("Hi there");                 //Frank says Hi there
+    
+    jim.name = "Jim";
+    jim.talk("Hi there");                   //Jim says Hi there
+    
+    //Pointer to a class object
+    Player *enemy = new Player;             //Memory will be allocated from the heap
+    enemy->name = "Enemy";
+    enemy->health = 100;
+    enemy->xp = 78;
+    
+    enemy->talk("I will find you");
+    
+    //Class object of Account
+    Account frankAccount;
+    frankAccount.name = "Frank";
+    frankAccount.balance = 100;
+    
+    frankAccount.withdraw(50);
+    frankAccount.deposite(25);
+    
+    //Pointer to a class object
+    Account *jimAccount = new Account;       //Memory will be allocated from the heap
+    jimAccount->name = "Jim";
+    jimAccount->balance = 400;
+    
+    jimAccount->deposite(200);
+    jimAccount->withdraw(100);
+    
+    return 0;
 }
