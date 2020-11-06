@@ -38,4 +38,6 @@ int main()
     
     std::cout << p1.first << ", " << p1.second << std::endl;
     std::cout << p2.first << ", " << p2.second << std::endl;
+    
+    return 0;
 }

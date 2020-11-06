@@ -6,11 +6,11 @@
 //  Copyright © 2020 Ashwani. All rights reserved.
 //
 
-#ifndef genericClass_h
-#define genericClass_h
-
 #include <iostream>
 #include <vector>
+
+#ifndef genericClass_h
+#define genericClass_h
 
 using namespace std;
 

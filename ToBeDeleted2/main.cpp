@@ -6,23 +6,52 @@
 //  Copyright © 2020 Ashwani. All rights reserved.
 //
 
-#include "Vector.hpp"
-#include<vector>
+#include <iostream>
+#include <cstdio>
+#include <vector>
+using namespace std;
 
-int main(int argc, const char * argv[])
-{
-    // insert code here...
-    Vector v1{5}, v2{5}, v3{5};
-    v1.createVector();
-    v2.createVector();
-    v1.display();
-    v2.display();
-//    v1.multiplyByScalar(2);
-//    v1.display();
-    v3.multiplyVector(v1, v2);
-    v3.display();
+int main() {
+    // Complete the code.
+
+    int num1{}, num2{};
+    size_t loopIndex;
+    
+    cin >> num1 >> num2;
+
+    vector<string> vString{"one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
 
 
+    
+        if(num2 <= 9)
+        {
+            for(loopIndex = num1; loopIndex <= num2; loopIndex++)
+            {
+                cout << vString[loopIndex] << endl;
+            }
+        }
+        else
+        {
+           for(loopIndex = num1; loopIndex <= 9; loopIndex++)
+            {
+                cout << vString[loopIndex] << endl;
+            }
+            for(loopIndex = 10; loopIndex <= num2; loopIndex++)
+            {
+                if(loopIndex%2 == 0)
+                {
+                    cout << "Even\n";
+                }
+                else
+                {
+                    cout << "odd\n";
+                }
+            }
+        }
+
+    
+
+    
     return 0;
 }
 
